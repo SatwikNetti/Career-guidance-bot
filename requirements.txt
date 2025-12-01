@@ -1,0 +1,8 @@
+flask
+rasa
+psycopg2-binary
+nltk
+spacy
+scikit-learn
+pandas
+python-dotenv

@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+<head><title>Results</title></head>
+<body>
+  <h1>Results</h1>
+  <ul>
+    {% for item in response_data %}
+      <li><strong>{{ item.jobTitle }}</strong>: {{ item.description }}</li>
+    {% endfor %}
+  </ul>
+  <a href="/">Back</a>
+</body>
+</html>

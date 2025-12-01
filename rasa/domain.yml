@@ -1,0 +1,10 @@
+version: "3.0"
+intents:
+  - greet
+  - goodbye
+  - ask_career
+responses:
+  utter_greet:
+    - text: "Hello — how can I help with your career questions?"
+  utter_goodbye:
+    - text: "Good luck!"
